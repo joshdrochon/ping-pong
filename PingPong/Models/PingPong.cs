@@ -6,10 +6,9 @@ namespace PingPongProject.Models
 {
   public class PingPong
   {
-    public int userInput;
-
+    //List
     public List<string> pingPongList = new List<string>();
-
+    //visibility, ReturnType, MethName, Parameters
     public List<string> NumberCalc(int number)
     {
       for(int i=1; i <= number; i++)
@@ -34,3 +33,9 @@ namespace PingPongProject.Models
     }
   }
 }
+
+/*
+ln -- note this file doesn't have using statment from Contollers because
+it require 0 data from PingPongCOntrollers to function.
+ln 12 - NumberCalc takes number as an argument. Var userInput gets passed
+in as argument when function is called in Controller */

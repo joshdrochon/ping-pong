@@ -35,7 +35,7 @@ namespace PingPongProject.Models
 }
 
 /*
-ln -- note this file doesn't have using statment from Contollers because
+ln -- note this file doesn't have using statment from Controllers because
 it require 0 data from PingPongCOntrollers to function.
 ln 12 - NumberCalc takes number as an argument. Var userInput gets passed
 in as argument when function is called in Controller */

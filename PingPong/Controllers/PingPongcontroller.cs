@@ -27,7 +27,7 @@ namespace PingPongProject.Controllers
 /*
 
 ln03 - ...this file must use pingPongProject.Models namespace because it requires some of its
-data to function properly.
+data to function properly
 
 ln19 - instantiates new PingPong object from PingPong class (within said class includes a List
 property that all instances of PingPong can inherit)
